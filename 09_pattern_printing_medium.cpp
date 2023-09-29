@@ -110,6 +110,7 @@ int main()
     // }
 
     // PRINT 5 TO 1
+    /*
     int row, col;
 
     for (row = 1; row <= 5; row++)
@@ -123,6 +124,28 @@ int main()
             cout << col << " ";
         }
 
+        cout << endl;
+    }
+    */
+    int num;
+    cout << "Enter the number of rows: ";
+    cin >> num;
+
+    for (int row = 1; row <= num - 1; row++)
+    {
+        // Print leading spaces
+        for (int col = 1; col <= num - row; col++)
+        {
+            cout << "   ";
+        }
+
+        // Print numbers in descending order
+        for (int col = row; col >= 1; col--)
+        {
+            cout << col << "  ";
+        }
+
+        // Move to the next line
         cout << endl;
     }
 }
