@@ -1,2 +1,6 @@
-cout << "enter the value of num: ";
-    // cin >> num;
+#include <iostream>
+using namespace std;
+
+int main()
+{
+}
