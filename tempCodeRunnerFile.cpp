@@ -1,6 +1,2 @@
-#include <iostream>
-using namespace std;
-
-int main()
-{
-}
+ "enter the value of x: ";
+    // cin >> x;
