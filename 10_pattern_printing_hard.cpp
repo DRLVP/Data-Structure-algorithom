@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     // PRINT * IN ROW TIMES
-    /*
+
     int row, col, num;
     cout << "enter the value of num: ";
     cin >> num;
@@ -21,7 +21,6 @@ int main()
 
         cout << endl;
     }
-    */
 
     //    PRINT 1 TO N IN LEFT SIDE
     /*
@@ -93,6 +92,7 @@ int main()
     */
 
     // PRINT 1 TO N IN LEFT
+    /*
     int row, col, num;
     cout << "enter the value of num: ";
     cin >> num;
@@ -112,4 +112,5 @@ int main()
         }
         cout << endl;
     }
+    */
 }
